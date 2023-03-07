@@ -1,0 +1,372 @@
+Return-Path: <webservices@webserver.enemywatch.net>
+Delivered-To: kevin.henderson@enemywatch.net
+Authentication-Results: mail.enemywatch.net;
+	dkim=pass header.d=enemywatch.net header.s=default header.b=cfBgwuYk;
+	dmarc=none;
+	spf=none (mail.enemywatch.net: domain of webservices@webserver.enemywatch.net has no SPF policy when checking 198.71.248.251) smtp.mailfrom=webservices@webserver.enemywatch.net
+Received: from server51-5.web-hosting.com (server51-5.web-hosting.com [198.71.248.251])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mail.enemywatch.net (Postfix) with ESMTPS id 4Hb1wd0Lv4z5vwx
+	for <kevin.henderson@enemywatch.net>; Thu, 21 Oct 2021 22:14:08 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=enemywatch.net; s=default; h=Sender:Content-Type:MIME-Version:Message-ID:
+	Reply-To:From:Date:Subject:To:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=YnOup5fXOFqKvkpcdnW/FAGzjwCBQI22atqgOOPBUf8=; b=cfBgwuYkvF0+Pge5IunJtiMj57
+	MpU2sUGjV9jn/oXXIClETgbFNMti3Z90jcMOUQ6TiE8yLZg+FTlFnC0S/KyIH2acgqSIZq2T5ZCTP
+	id9vSwOJFYma7WkvRD+bI7CZmk/AoG778zKzDSIGtiRS3E2S0r7yW+4qyFFpRt+whGSyNWFHomP8+
+	xtUzZOQgdt93dTF5ufwonWXb5FktTQCRku5r0E7pRvDCfi9czdD3U45zHwXM/ltAn+VGB//23rjbr
+	8iKQ6pSp5pLTH9je5gPa6bvFGhnVAiGm4BX2VhipXXuyemVI70F7efTG2RCoBUDX1OzKjawfsdpTr
+	DCtjpfwg==;
+Received: from webservices by webserver.enemywatch.net with local (Exim 4.94.2)
+	(envelope-from <webservices@webserver.enemywatch.net>)
+	id 1mdgK8-00AGhL-Mw
+	for kevin.henderson@enemywatch.net; Thu, 21 Oct 2021 18:14:08 -0400
+To: kevin.henderson@enemywatch.net
+Subject: New Entry: Contact Form
+X-PHP-Script: enemywatch.net/index.php for 45.133.172.94, 45.133.172.94
+X-PHP-Filename: /home/webservices/public_html/index.php REMOTE_ADDR: 45.133.172.94
+Date: Thu, 21 Oct 2021 22:14:08 +0000
+From: Enemy Watch <webmaster@enemywatch.net>
+Reply-To: kweigandphotography@yahoo.ca
+Message-ID: <odMARPeLG9GYTIIK62cuA7oYVhSvGx4tRd1r5kt9F4@enemywatch.net>
+X-Mailer: PHPMailer 6.5.0 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Sender:  <webservices@webserver.enemywatch.net>
+
+<!doctype html>
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<!--[if gte mso 15]>
+	<xml>
+		<o:OfficeDocumentSettings>
+		<o:AllowPNG/>
+		<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+	</xml>
+	<![endif]-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Enemy Watch</title>
+	<style type="text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#bodyCell{
+			padding:50px 50px;
+		}
+		.templateContainer{
+			max-width:600px !important;
+			border:0;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+		/***** Make theme edits below if needed *****/
+		/* Page - Background Style */
+		body,#bodyTable{
+			background-color:#e9eaec;
+		}
+		/* Page - Heading 1 */
+		h1{
+			color:#202020;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:26px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+		}
+		/* Page - Heading 2 */
+		h2{
+			color:#202020;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:22px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+		}
+		/* Page - Heading 3 */
+		h3{
+			color:#202020;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:20px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+		}
+		/* Page - Heading 4 */
+		h4{
+			color:#202020;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:18px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+		}
+		/* Header - Header Style */
+		#templateHeader{
+			border-top:0;
+			border-bottom:0;
+			padding-top:0;
+			padding-bottom:20px;
+			text-align: center;
+		}
+		/* Body - Body Style */
+		#templateBody{
+			background-color:#FFFFFF;
+			border-top:0;
+			border: 1px solid #c1c1c1;
+			padding-top:0;
+			padding-bottom:0px;
+		}
+		/* Body -Body Text */
+		#templateBody .mcnTextContent,
+		#templateBody .mcnTextContent p{
+			color:#555555;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:14px;
+			line-height:150%;
+		}
+		/* Body - Body Link */
+		#templateBody .mcnTextContent a,
+		#templateBody .mcnTextContent p a{
+			color:#ff7f50;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		/* Footer - Footer Style */
+		#templateFooter{
+			background-color:#e9eaec;
+			border-top:0;
+			border-bottom:0;
+			padding-top:12px;
+			padding-bottom:12px;
+		}
+		/* Footer - Footer Text */
+		#templateFooter .mcnTextContent,
+		#templateFooter .mcnTextContent p{
+			color:#cccccc;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:12px;
+			line-height:150%;
+			text-align:center;
+		}
+		/* Footer - Footer Link */
+		#templateFooter .mcnTextContent a,
+		#templateFooter .mcnTextContent p a{
+			color:#cccccc;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		@media only screen and (min-width:768px){
+			.templateContainer{
+				width:600px !important;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			body,table,td,p,a,li,blockquote{
+				-webkit-text-size-adjust:none !important;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			body{
+				width:100% !important;
+				min-width:100% !important;
+			}
+		}
+		@media only screen and (max-width: 680px){
+			#bodyCell{
+				padding:20px 20px !important;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			.mcnTextContentContainer{
+				max-width:100% !important;
+				width:100% !important;
+			}
+		}
+	</style>
+</head>
+<body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #e9eaec;">
+	<!-- Don't forget to run final template through http://templates.mailchimp.com/resources/inline-css/ -->
+	<center>
+		<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;background-color: #e9eaec;">
+			<tr>
+				<td align="center" valign="top" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 50px 50px;width: 100%;">
+					<!-- BEGIN TEMPLATE // -->
+					<!--[if gte mso 9]>
+					<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+					<tr>
+					<td align="center" valign="top" width="600" style="width:600px;">
+					<![endif]-->
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border: 0;max-width: 600px !important;">
+												<tr>
+							<td valign="top" id="templateBody" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;border-top: 0;border: 1px solid #c1c1c1;padding-top: 0;padding-bottom: 0px;">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+									<tbody class="mcnTextBlockOuter">
+										<tr>
+											<td valign="top" class="mcnTextBlockInner" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+												<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnTextContentContainer">
+													<tbody>
+														<tr>
+															<td valign="top" style="padding-top: 30px;padding-right: 30px;padding-bottom: 30px;padding-left: 30px;" class="mcnTextContent">
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style=" display:block;min-width: 100%;border-collapse: collapse;width:100%;">
+<tbody>
+<tr>
+<td style="color:#333333;padding-top: 20px;padding-bottom: 3px;"><strong>Name</strong></td>
+</tr>
+<tr>
+<td style="color:#555555;padding-top: 3px;padding-bottom: 20px;">MichaelPamBC MichaelPam</td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #dddddd; display:block;min-width: 100%;border-collapse: collapse;width:100%;">
+<tbody>
+<tr>
+<td style="color:#333333;padding-top: 20px;padding-bottom: 3px;"><strong>Email</strong></td>
+</tr>
+<tr>
+<td style="color:#555555;padding-top: 3px;padding-bottom: 20px;"><a href="mailto:kweigandphotography@yahoo.ca">kweigandphotography@yahoo.ca</a></td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #dddddd; display:block;min-width: 100%;border-collapse: collapse;width:100%;">
+<tbody>
+<tr>
+<td style="color:#333333;padding-top: 20px;padding-bottom: 3px;"><strong>Comment or Message</strong></td>
+</tr>
+<tr>
+<td style="color:#555555;padding-top: 3px;padding-bottom: 20px;">Hi, I'm Michael, I just noticed that there is the &quot;error 500&quot; appearing on some of your website pages. I'm pretty positive that those types of errors won't be appreciated by your customers and you are basically losing money as a result, plus they can significantly reduce the number of clicks from Google. I've decided to help and created the document for you with a few screenshots of errors and also indicated the links to the pages where they appear, hope it helps. Here's the link to the doc, check it out:<br />
+<br />
+<a href="https://storage.googleapis.com/m4b38h10cm38.appspot.com/gdrive/folders/0/public/d/049fin4nvvfm4.html?id=12503510859242887">https://storage.googleapis.com/m4b38h10cm38.appspot.com/gdrive/folders/0/public/d/049fin4nvvfm4.html?id=12503510859242887</a><br />
+<br />
+Have a wonderful day!</td>
+</tr>
+</tbody>
+</table>
+
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" id="templateFooter" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #e9eaec;border-top: 0;border-bottom: 0;padding-top: 12px;padding-bottom: 12px;">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+									<tbody class="mcnTextBlockOuter">
+										<tr>
+											<td valign="top" class="mcnTextBlockInner" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+												<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnTextContentContainer">
+													<tbody>
+														<tr>
+															<td valign="top" class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #aaa;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: center;">
+
+																<!-- Footer content -->
+																Sent from <a href="https://enemywatch.net" style="color:#bbbbbb;">Enemy Watch</a>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<!--[if gte mso 9]>
+					</td>
+					</tr>
+					</table>
+					<![endif]-->
+					<!-- // END TEMPLATE -->
+					</td>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>
+
